@@ -5,7 +5,7 @@ on:
 
 jobs:
   test-job:
-    runs-on: lx29
+    runs-on: self-hosted 
     steps:
       - name: Verify Runner
         run: echo "This job is running on runner lx29."
