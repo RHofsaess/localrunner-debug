@@ -1,0 +1,11 @@
+name: Test Runner
+
+on:
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  test-job:
+    runs-on: lx29
+    steps:
+      - name: Verify Runner
+        run: echo "This job is running on runner lx29."
